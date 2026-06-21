@@ -39,8 +39,10 @@
 Clone and run the installer — it handles everything:
 
 ```bash
-git clone https://github.com/riponeth/ReconX.git
-cd ReconX
+git clone https://github.com/riponeth/reconx.git
+cd reconx
+python3 -m venv venv
+source venv/bin/activate
 chmod +x install.sh && ./install.sh
 ```
 
